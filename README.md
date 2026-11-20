@@ -1,9 +1,11 @@
 # QR Code & Barcode Scanner · publish lanes
 
 This repository holds the publish lanes of
-[QR Code & Barcode Scanner](https://github.com/qrcode-ai-com/qrcode-barcode-scanner-rust) that need
-a registry credential. The engine repository stores no publishing token, so each lane that needs one
-lives here, in its own folder, with its own workflow and protected environment.
+[QR Code & Barcode Scanner](https://github.com/qrcode-ai-com/qrcode-barcode-scanner-rust) that
+publish to a registry from here rather than from the engine repository. Each lane lives in its own
+folder, with its own workflow and a protected environment that a reviewer approves. The VS Code
+lane publishes to both registries with Trusted Publishing: each registry trades the job's GitHub
+OIDC ID token for a short-lived token, so no publishing token is stored here either.
 
 | Lane | Folder | Workflow | Destination |
 | --- | --- | --- | --- |
