@@ -1,12 +1,12 @@
 {
   "schema": "qrscan-vscode-publish-stage/1",
   "repository": "https://github.com/qrcode-ai-com/qrcode-barcode-scanner-rust",
-  "revision": "102bc88b2547f50c4769e7e567d803f76b9276fa",
+  "revision": "f2d22f7ac3352c2c1d9d30fab8498302740c1407",
   "extension": "qrcode-ai-com.qrcode-barcode-scanner",
   "version": "0.1.0",
   "vsix": "qrcode-barcode-scanner-0.1.0.vsix",
-  "bytes": 1064363,
-  "sha256": "047eaef6e972b8b2b288d930caca9bceacaac8a9c91323cbe46698e43b4795eb",
+  "bytes": 1064378,
+  "sha256": "362b65cd24296f09711f33d809ee8714bbd3e340c77ffea8af9aeeee35d54738",
   "node": "22",
   "files": {
     ".github/workflows/vscode-publish.yml": "30ff5c3cb538069819427fc0debaee2bee55f0a54ab81de0f97303d0dce56643",
